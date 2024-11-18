@@ -41,3 +41,36 @@ class Solution {
 Time complexity  : O(n^2)
 
 Space Complexity : O(1)
+
+## Optimal Solution
+```java
+class Solution {
+    public int findSubArraySum(int k, int[] arr) {
+        // HashMap to store the frequency of prefix sums
+        HashMap<Integer, Integer> prefixSumCount = new HashMap<>();
+        int currentSum = 0;
+        int res = 0;
+        
+        // Add a base case: prefix sum of 0 has occurred once
+        prefixSumCount.put(0, 1);
+        
+        for (int num : arr) {
+            // Update the current sum
+            currentSum += num;
+            
+            // Check if (currentSum - k) exists in the hashmap
+            if (prefixSumCount.containsKey(currentSum - k)) {
+                res += prefixSumCount.get(currentSum - k);
+            }
+            
+            // Update the hashmap with the current prefix sum
+            prefixSumCount.put(currentSum, prefixSumCount.getOrDefault(currentSum, 0) + 1);
+        }
+        
+        return res;
+    }
+}
+```
+Time Complexity: O(n)
+
+Space Complexity: O(n)
