@@ -1,0 +1,155 @@
+110, 2/day
+
+1. Sorting Algorithms
+
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort
+Counting Sort
+Radix Sort
+Bucket Sort
+Tim Sort
+
+2. Searching Algorithms
+
+Linear Search
+Binary Search
+Ternary Search
+Exponential Search
+Jump Search
+Interpolation Search
+
+3. Divide and Conquer
+
+Merge Sort
+Quick Sort
+Binary Search
+Matrix Multiplication (Strassen's Algorithm)
+Maximum Subarray Problem (Kadane's Algorithm)
+Closest Pair of Points
+
+4. Dynamic Programming
+
+Fibonacci Sequence
+Longest Common Subsequence
+Longest Increasing Subsequence
+0/1 Knapsack Problem
+Unbounded Knapsack Problem
+Matrix Chain Multiplication
+Subset Sum Problem
+Rod Cutting Problem
+Egg Dropping Problem
+Longest Palindromic Subsequence
+Minimum Edit Distance
+Partition Problem
+Optimal Binary Search Tree
+
+5. Greedy Algorithms
+
+Activity Selection Problem
+Huffman Encoding
+Fractional Knapsack Problem
+Job Scheduling Problem
+Minimum Spanning Tree (Prim's Algorithm, Kruskal's Algorithm)
+Dijkstra’s Shortest Path Algorithm
+Gas Station Problem
+Coin Change Problem (Greedy version)
+
+6. Graph Algorithms
+
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Dijkstra's Algorithm
+Bellman-Ford Algorithm
+Floyd-Warshall Algorithm
+Topological Sort
+Strongly Connected Components (Kosaraju's Algorithm)
+Minimum Spanning Tree (Prim's and Kruskal's)
+Shortest Path in DAG
+Union-Find Algorithm
+Cycle Detection (BFS/DFS-based)
+A* Algorithm
+
+7. Backtracking
+
+N-Queens Problem
+Sudoku Solver
+Rat in a Maze
+Word Search
+Hamiltonian Path and Cycle
+Subset Sum Problem
+Permutations and Combinations
+Knight's Tour Problem
+
+8. String Algorithms
+
+Naive Pattern Searching
+KMP Algorithm (Knuth-Morris-Pratt)
+Rabin-Karp Algorithm
+Z Algorithm
+Longest Palindromic Substring
+Suffix Array and Suffix Tree
+Aho-Corasick Algorithm
+Trie Data Structure
+Edit Distance
+
+9. Bit Manipulation
+
+Count Set Bits
+Find the only non-repeating element
+Check if a number is a power of 2
+Subsets using Bits
+XOR Operations
+Bitwise AND/OR
+
+10. Advanced Data Structures
+
+Segment Tree
+Fenwick Tree (Binary Indexed Tree)
+Trie (Prefix Tree)
+Disjoint Set Union (Union-Find)
+Suffix Array
+Suffix Tree
+AVL Tree
+Red-Black Tree
+B-Tree
+Sparse Table
+
+11. Computational Geometry
+
+Convex Hull (Graham’s Scan, Jarvis March)
+Line Intersection
+Closest Pair of Points
+Point in Polygon
+Sweep Line Algorithm
+
+12. Mathematical Algorithms
+
+Sieve of Eratosthenes
+GCD and LCM (Euclidean Algorithm)
+Modular Exponentiation
+Chinese Remainder Theorem
+Fermat’s Little Theorem
+Matrix Exponentiation
+Fast Fourier Transform (FFT)
+Prime Factorization
+
+13. Sliding Window and Two Pointers
+
+Maximum/Minimum Sum Subarray
+Longest Substring Without Repeating Characters
+Anagram Count
+Smallest Window Substring
+Count Occurrences of Anagrams
+
+14. Other Important Topics
+
+Kadane’s Algorithm (Maximum Subarray Sum)
+Reservoir Sampling
+Tortoise and Hare Algorithm (Cycle Detection)
+Boyer-Moore Voting Algorithm
+Fisher-Yates Shuffle (Random Shuffling)
+Flood Fill Algorithm
